@@ -46,7 +46,7 @@ class RunnerExampleGroup < Spec::Example::ExampleGroup
       error_stream.string
     end
 
-    def when_ran_with(args)
+    def when_run_with(args)
       yield
       run args
     end
