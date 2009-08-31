@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "clispec"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Helpers for testing CLI tools with Cucumber and RSpec}
+    gem.description = %Q{Step defs, world helpers, etc. for testing CLI tools with Cucumber.  Custom example group to help test CLI tools in RSpec.}
     gem.email = "ben@benmabey.com"
     gem.homepage = "http://github.com/bmabey/clispec"
     gem.authors = ["Ben Mabey"]
