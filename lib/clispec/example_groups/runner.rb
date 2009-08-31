@@ -11,7 +11,7 @@ class RunnerExampleGroup < Spec::Example::ExampleGroup
     def self.it_exits(message, expected_status_code, options)
       it "exits #{message}" do
         Kernel.should_receive(:exit).with(expected_status_code)
-        run(options[:when_running] || '')
+        run(options[:when_run_with] || '')
       end
     end
 
