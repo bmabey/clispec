@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{clispec}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ben Mabey"]
-  s.date = %q{2009-08-31}
+  s.date = %q{2009-09-01}
   s.description = %q{Step defs, world helpers, etc. for testing CLI tools with Cucumber.  Custom example group to help test CLI tools in RSpec.}
   s.email = %q{ben@benmabey.com}
   s.extra_rdoc_files = [
